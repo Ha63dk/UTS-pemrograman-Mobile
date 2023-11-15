@@ -91,7 +91,7 @@ Kita isi relative layout dengan 3 linear layout
    - Linear layout 2: button toast
 
 
-   - SOURCE CODE
+ - SOURCE CODE
 
     <?xml version="1.0" encoding="utf-8"?>
     <resources>
