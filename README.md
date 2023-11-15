@@ -93,8 +93,6 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
     </integer-array>
 </resources>
 
-![Kumpulan Warna](<script src="https://gist.github.com/Ha63dk/c968fc667c621bf4322db191199881e5.js"></script>)
-
 Penjelasan:
 
 Kita isi relative layout dengan 3 linear layout
@@ -110,7 +108,7 @@ Kita isi relative layout dengan 3 linear layout
    - Linear layout 1: button hitung + button reset
    - Linear layout 2: button toast
 
-
+- Nama + NIM
 
 
 
