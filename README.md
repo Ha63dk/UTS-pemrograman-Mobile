@@ -110,4 +110,3 @@ Kita isi relative layout dengan 3 linear layout
         <item>@color/green</item>
     </integer-array>
 </resources>
-
