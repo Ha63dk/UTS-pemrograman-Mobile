@@ -140,3 +140,16 @@ Tugas : Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan
     </LinearLayout>
 
 </RelativeLayout>
+
+Penjelasan :
+
+kita isi relative layout dengan 3 linear layout
+linear layout 1 berisi editText dan button set maximum
+linear layout 2 diisi dengan 3 textview dan 1 linear layout horizontal:
+•	nama + nim
+•	jumlah klik pada tombol hitung
+•	angka fibonacci terakhir
+linear layout : TextView untuk menampilkan jumlah maksimal angka fibonacci
+linear layout 3 berisi :
+•	linear layout 1 :button hitung + button reset
+•	linear layout 2 : button toast
