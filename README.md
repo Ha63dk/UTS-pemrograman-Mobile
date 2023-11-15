@@ -56,11 +56,10 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
             android:layout_gravity="clip_horizontal|center"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="30dp"
-            android:text="Hadad Firdaus 312310739"
+            android:text="HADAD FIRDAUS 312310739"
             android:textAlignment="center"
             android:textSize="24sp" />
 
-        <!-- Sisipkan elemen-elemen XML lainnya disini -->
 
     </LinearLayout>
 
@@ -70,7 +69,7 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
         android:layout_below="@id/linear"
         android:orientation="vertical">
 
-        <!-- Sisipkan elemen-elemen XML lainnya disini -->
+        
 
     </LinearLayout>
 
