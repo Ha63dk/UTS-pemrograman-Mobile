@@ -253,3 +253,33 @@ public class MainActivity extends AppCompatActivity {
         linear.setBackgroundColor(Color.WHITE);
     }
 }
+Kode yang diberikan adalah implementasi sederhana dari aplikasi Android yang memiliki fungsi untuk menghitung angka Fibonacci setiap kali tombol hitung diklik. Berikut adalah penjelasan singkat untuk setiap bagian dari kode tersebut:
+
+1. **Deklarasi Variabel:**
+   - `count`, `countFibo`, `maxFibo`: Variabel untuk menghitung jumlah klik tombol, nilai Fibonacci, dan nilai maksimum Fibonacci.
+   - `showCount`, `showCountFibo`, `showMaxFibo`: TextView untuk menampilkan jumlah klik tombol, nilai Fibonacci, dan nilai maksimum Fibonacci.
+   - `maxNumber`: EditText untuk memasukkan nilai maksimum Fibonacci.
+   - `buttonToast`, `buttonCount`, `buttonReset`, `buttonMax`: Button untuk melakukan aksi toast, menghitung Fibonacci, mereset, dan mengatur nilai maksimum Fibonacci.
+   - `toastA`: Objek Toast untuk menampilkan informasi.
+
+2. **Inisialisasi Warna:**
+   - `warna`: Array integer yang berisi referensi ke warna latar belakang sesuai dengan array yang didefinisikan di `colors.xml`.
+
+3. **Event Listener dan Aksi:**
+   - `buttonToast`: Menampilkan angka Fibonacci saat tombol toast diklik.
+   - `buttonCount`: Menghitung dan menampilkan angka Fibonacci setiap kali tombol hitung diklik.
+   - `buttonReset`: Mereset jumlah klik tombol dan nilai Fibonacci.
+   - `buttonMax`: Mengubah nilai maksimum Fibonacci berdasarkan input dari pengguna.
+
+4. **Metode `calculateFibo`:**
+   - Menghitung nilai Fibonacci untuk suatu angka tertentu.
+   - Mengubah warna latar belakang sesuai dengan pola warna yang telah didefinisikan.
+
+5. **Metode `calculate`:**
+   - Memeriksa apakah nilai maksimum Fibonacci telah tercapai.
+   - Jika belum, menghitung nilai Fibonacci, menampilkan informasi, dan mengubah warna latar belakang.
+
+6. **Metode `reset`:**
+   - Mengatur ulang jumlah klik tombol, nilai Fibonacci, dan mengubah warna latar belakang menjadi putih.
+
+Dengan demikian, aplikasi ini memberikan interaktifitas sederhana dengan menggabungkan konsep angka Fibonacci dan tampilan warna yang menarik pada antarmuka pengguna.
