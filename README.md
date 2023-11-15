@@ -110,3 +110,10 @@ Kita isi relative layout dengan 3 linear layout
         <item>@color/green</item>
     </integer-array>
 </resources>
+
+Penjelasan:
+
+
+1. <?xml version="1.0" encoding="utf-8"?>: Menunjukkan bahwa ini adalah dokumen XML versi 1.0 dengan pengkodean UTF-8.
+2. <resources>: Menandakan awal dari sumber daya yang didefinisikan di dalam file XML.
+3. <integer-array>: Mendefinisikan array integer yang berisi referensi ke warna-warna tertentu. Dalam hal ini, warna merah, kuning, dan hijau diambil dari warna yang sudah didefinisikan sebelumnya.
