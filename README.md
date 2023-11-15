@@ -93,6 +93,7 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
     </integer-array>
 </resources>
 
+![Kumpulan Warna](<script src="https://gist.github.com/Ha63dk/c968fc667c621bf4322db191199881e5.js"></script>)
 
 Penjelasan:
 
