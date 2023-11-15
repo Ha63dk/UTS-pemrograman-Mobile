@@ -73,26 +73,6 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
 
     </LinearLayout>
 
-</RelativeLayout>
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="yellow">#F2EF1C</color>
-    <color name="green">#1CF234</color>
-    <color name="red">#F50A0A</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <integer-array name="warna_background_fibo">
-        <item>@color/red</item>
-        <item>@color/yellow</item>
-        <item>@color/green</item>
-    </integer-array>
-</resources>
-
 Penjelasan:
 
 Kita isi relative layout dengan 3 linear layout
@@ -131,10 +111,10 @@ Kita isi relative layout dengan 3 linear layout
 
 Penjelasan:
 
-
 1. <?xml version="1.0" encoding="utf-8"?>: Menunjukkan bahwa ini adalah dokumen XML versi 1.0 dengan pengkodean UTF-8.
 2. <resources>: Menandakan awal dari sumber daya yang didefinisikan di dalam file XML.
-3. <integer-array>: Mendefinisikan array integer yang berisi referensi ke warna-warna tertentu. Dalam hal ini, warna merah, kuning, dan hijau diambil dari warna yang sudah didefinisikan sebelumnya.
+3. <integer-array>: Mendefinisikan array integer yang berisi referensi ke warna-warna tertentu. Dalam hal ini, warna merah, kuning, dan hijau diambil dari 
+    warna yang sudah didefinisikan sebelumnya.
    
 - Main Activity Java
   
