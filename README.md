@@ -1,7 +1,5 @@
 # Tugas Pemrograman Mobile
 
-# Tugas Pemrograman Mobile
-
 Nama: Hadad Firdaus  
 NIM: 312310739  
 Kelas: TI.22.B1  
@@ -62,49 +60,7 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
             android:textAlignment="center"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/textCountFibo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:text="0"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="150sp" />
-
-        <TextView
-            android:id="@+id/textCount"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tombol Hitung diklik sebanyak : 0"
-            android:textAlignment="center"
-            android:textSize="20sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="wrap_content"
-                android:layout_height="29dp"
-                android:layout_weight="1"
-                android:text="Maksimum Angka fibo : "
-                android:textAlignment="textEnd"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textMaxFibo"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="0"
-                android:textSize="20sp" />
-        </LinearLayout>
+        <!-- Sisipkan elemen-elemen XML lainnya disini -->
 
     </LinearLayout>
 
@@ -114,35 +70,8 @@ Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan 
         android:layout_below="@id/linear"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/buttonCount"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="1dp"
-            android:layout_marginLeft="1dp"
-            android:layout_marginTop="3dp"
-            android:hapticFeedbackEnabled="false"
-            android:text="HITUNG"
-            android:textAlignment="center"
-            android:textStyle="bold" />
+        <!-- Sisipkan elemen-elemen XML lainnya disini -->
 
-        <Button
-            android:id="@+id/buttonReset"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="1dp"
-            android:layout_marginLeft="1dp"
-            android:layout_marginTop="3dp"
-            android:text="RESET"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/buttonToast"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tampilkan Toast"
-            android:textAlignment="center"
-            android:textStyle="bold" />
     </LinearLayout>
 
 </RelativeLayout>
