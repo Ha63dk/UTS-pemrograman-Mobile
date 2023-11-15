@@ -1,8 +1,32 @@
-#Nama : Hadad Firdaus
-##Nim : 312310739
-Kelas : TI.22.B1
-Mata Kuliah : Pemrograman Mobile
-Tugas : Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan urutan angka fibonacci, lalu lengkapi dengan fitur toast
+# Tugas Pemrograman Mobile
+
+## Nama : Hadad Firdaus
+## Nim : 312310739
+## Kelas : TI.22.B1
+## Mata Kuliah : Pemrograman Mobile
+
+### Deskripsi Tugas
+Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan bertambah sesuai dengan urutan angka Fibonacci. Selain itu, aplikasi ini dilengkapi dengan fitur toast untuk memberikan informasi kepada pengguna.
+
+### Struktur Proyek
+Proyek ini menggunakan Relative Layout dengan komponen-komponen berikut:
+
+1. Linear Layout 1:
+   - EditText
+   - Button "Set Maximum"
+
+2. Linear Layout 2:
+   - TextView untuk menampilkan Nama dan NIM
+   - TextView untuk menampilkan jumlah klik pada tombol hitung
+   - TextView untuk menampilkan angka Fibonacci terakhir
+   - Linear Layout horizontal untuk mengelompokkan TextView di atas
+
+3. Linear Layout 3:
+   - Linear Layout 1:
+      - Button "Hitung"
+      - Button "Reset"
+   - Linear Layout 2:
+      - Button "Toast"
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
