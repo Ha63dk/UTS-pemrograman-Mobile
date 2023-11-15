@@ -117,7 +117,7 @@ Penjelasan:
     warna yang sudah didefinisikan sebelumnya.
    
 - Main Activity Java
-  
+'''
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
