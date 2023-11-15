@@ -1,9 +1,11 @@
 # Tugas Pemrograman Mobile
 
-## Nama : Hadad Firdaus
-## Nim : 312310739
-## Kelas : TI.22.B1
-## Mata Kuliah : Pemrograman Mobile
+# Tugas Pemrograman Mobile
+
+Nama: Hadad Firdaus  
+NIM: 312310739  
+Kelas: TI.22.B1  
+Mata Kuliah: Pemrograman Mobile
 
 ### Deskripsi Tugas
 Tugas ini bertujuan untuk membuat tombol yang setiap kali diklik, angkanya akan bertambah sesuai dengan urutan angka Fibonacci. Selain itu, aplikasi ini dilengkapi dengan fitur toast untuk memberikan informasi kepada pengguna.
