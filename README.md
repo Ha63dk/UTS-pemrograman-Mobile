@@ -108,7 +108,7 @@ Kita isi relative layout dengan 3 linear layout
    - Linear layout 1: button hitung + button reset
    - Linear layout 2: button toast
 
-- Nama + NIM
+- Color.xml
 
 
 
